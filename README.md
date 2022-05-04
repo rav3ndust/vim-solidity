@@ -7,7 +7,7 @@ contract-oriented programming language for Ethereum.
 Run the following command:
 
 ```bash
-git clone https://github.com/tomlion/vim-solidity.git ~/.vim/bundle/vim-solidity
+git clone https://github.com/rav3ndust/vim-solidity.git ~/.vim/bundle/vim-solidity
 ```
 
 ### Vundle
