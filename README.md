@@ -2,7 +2,7 @@
 Syntax files for [Solidity](https://github.com/ethereum/solidity), the
 contract-oriented programming language for Ethereum.
 
-![image](https://user-images.githubusercontent.com/35274771/166626795-282e86f8-9e77-4399-95a0-3e97cf277b71.png)
+![image](https://user-images.githubusercontent.com/35274771/166626983-7829b4cd-f738-4548-a993-8881eb592fb4.png)
 
 
 ## Installation
