@@ -3,12 +3,11 @@ Syntax files for [Solidity](https://github.com/ethereum/solidity), the contract-
 
 ![image](https://user-images.githubusercontent.com/35274771/166626983-7829b4cd-f738-4548-a993-8881eb592fb4.png)
 
-
 ## Installation
 
 Make sure you have a `start` directory for your vim plugins. Run the following command to create it if you don't: 
 
-`mkdir -p ~/vim/pack/default/start` 
+`mkdir -p ~/.vim/pack/default/start` 
 
 Or, if you're one of those new-fangled **neovim** users: 
 
@@ -16,7 +15,7 @@ Or, if you're one of those new-fangled **neovim** users:
 
 Now, change directories to your new `start` directory and clone this repo: 
 
-`cd ~/vim/pack/default/start && git clone https://github.com/rav3ndust/vim-solidity` 
+`cd ~/.vim/pack/default/start && git clone https://github.com/rav3ndust/vim-solidity` 
 
 That's it! Plugins you place in your `start` directory are loaded automatically when vim initializes, so you don't need to worry about adding extra stuff to your .vimrc file. 
 
