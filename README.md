@@ -3,26 +3,27 @@ Syntax files for [Solidity](https://github.com/ethereum/solidity), the
 contract-oriented programming language for Ethereum.
 
 ## Installation
-### Pathogen
-Run the following command:
 
-```bash
-git clone https://github.com/rav3ndust/vim-solidity.git ~/.vim/bundle/vim-solidity
-```
+Make sure you have a `start` directory for your vim plugins. Run the following command to create it if you don't: 
 
-### Vundle
-Add the following line to your `~/.vimrc`:
+`mkdir -p ~/vim/pack/default/start` 
 
-```vim
-Plugin 'tomlion/vim-solidity'
-```
+Or, if you're one of those new-fangled **neovim** users: 
 
-### Plug
-Add the following line to your `~/.vimrc`:
+`mkdir -p ~/.local/share/nvim/site/pack/default/start` 
 
-```vim
-Plug 'tomlion/vim-solidity'
-```
+Now, change directories to your new `start` directory and clone this repo: 
 
-### No Plugin Manager
-Copy all of the files manually into your `~/.vim`.
+`cd ~/vim/pack/default/start && git clone https://github.com/rav3ndust/vim-solidity` 
+
+That's it! Plugins you place in your `start` directory are loaded automatically when vim initializes, so you don't need to worry about adding extra stuff to your .vimrc file. 
+
+## What About Vim Plugin Managers? 
+
+I don't use these, so I'm not as familiar with them. Follow the same process for this plugin as you do for others, but as I have not messed with them and am not interested to, consider this unsupported and try it out if you'd like. _YMMV_. 
+
+## Credits
+
+This repo is a fork of [tomlion's repository](https://github.com/tomlion/vim-solidity). 
+
+The original repo hasn't seen activity in a number of years, so I hope to help keep it around and update it from time to time for the benefit of myself and other Solidity vim programmers. 
