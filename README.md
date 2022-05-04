@@ -2,6 +2,9 @@
 Syntax files for [Solidity](https://github.com/ethereum/solidity), the
 contract-oriented programming language for Ethereum.
 
+![image](https://user-images.githubusercontent.com/35274771/166626795-282e86f8-9e77-4399-95a0-3e97cf277b71.png)
+
+
 ## Installation
 
 Make sure you have a `start` directory for your vim plugins. Run the following command to create it if you don't: 
@@ -27,3 +30,9 @@ I don't use these, so I'm not as familiar with them. Follow the same process for
 This repo is a fork of [tomlion's repository](https://github.com/tomlion/vim-solidity). 
 
 The original repo hasn't seen activity in a number of years, so I hope to help keep it around and update it from time to time for the benefit of myself and other Solidity vim programmers. 
+
+## Resources
+
+Learn about [vim](https://www.vim.org/), the single best text editor of all time.
+
+Learn more about [Solidity](https://soliditylang.org/), the language for smart contracts on Ethereum.
